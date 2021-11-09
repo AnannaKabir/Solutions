@@ -1,0 +1,16 @@
+CREATE TABLE STUDENTS (
+  ID INTEGER PRIMARY KEY,
+  Name STRING NOT NULL,
+  Marks INTEGER NOT NULL
+);
+
+INSERT INTO students VALUES (1, "Ashley", 81);
+INSERT INTO students VALUES (2, "Samantha", 75);
+INSERT INTO students VALUES (4, "Julia", 76);
+INSERT INTO students VALUES (3, "Balvet", 84);
+
+SELECT Name FROM STUDENTS WHERE Marks >75 ORDER By(Name, 3),ID ;
+
+
+
+
